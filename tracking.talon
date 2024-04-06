@@ -1,0 +1,20 @@
+key(f17):
+    tracking.control_toggle()
+key(f18):
+    tracking.calibrate()
+key(f16:down):
+    tracking.control_toggle()
+key(f16:up):
+    tracking.control_toggle()
+key(f22:down):
+    mouse_drag(0)
+key(f22:up):
+    mouse_release(0)
+key(f23:down):
+    mouse_drag(1)
+key(f23:up):
+    mouse_release(1)
+key(f24:down):
+    mouse_drag(0)
+key(f24:up):
+    mouse_release(0)
