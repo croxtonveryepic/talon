@@ -6,15 +6,21 @@ key(f16:down):
     tracking.control_toggle()
 key(f16:up):
     tracking.control_toggle()
-key(f22:down):
+key(f22):
+    mouse_click(0)
+key(f23):
+    mouse_click(1)
+key(f24):
+    mouse_click(2)
+key(f19:down):
     mouse_drag(0)
-key(f22:up):
+key(f19:up):
     mouse_release(0)
-key(f23:down):
+key(f20:down):
     mouse_drag(1)
-key(f23:up):
+key(f20:up):
     mouse_release(1)
-key(f24:down):
-    mouse_drag(0)
-key(f24:up):
-    mouse_release(0)
+key(f21:down):
+    mouse_drag(2)
+key(f21:up):
+    mouse_release(2)
