@@ -1,11 +1,19 @@
-key(f17):
+key(ctrl-f16):
     tracking.control_toggle()
-key(f18):
-    tracking.calibrate()
 key(f16:down):
     tracking.control_toggle()
 key(f16:up):
     tracking.control_toggle()
+key(f17:down):
+    tracking.control_toggle()
+    key(alt:down)
+    key(tab)
+key(f17:up):
+    tracking.control_toggle()
+    mouse_click(0)
+    key(alt:up)
+key(f18):
+    tracking.calibrate()
 key(f22):
     mouse_click(0)
 key(f23):
