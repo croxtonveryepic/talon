@@ -32,3 +32,7 @@ key(f21:down):
     mouse_drag(2)
 key(f21:up):
     mouse_release(2)
+key(ctrl-pgdown):
+    mouse_scroll(500)
+key(ctrl-pgup):
+    mouse_scroll(-500)
