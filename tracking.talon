@@ -4,6 +4,10 @@ key(f16:down):
     tracking.control_toggle()
 key(f16:up):
     tracking.control_toggle()
+key(ctrl-f15):
+    tracking.control_zoom_toggle()
+key(f15):
+    tracking.zoom()
 key(f17:down):
     tracking.control_toggle()
     key(alt:down)
