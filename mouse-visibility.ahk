@@ -5,12 +5,12 @@ ShowCursor:
 SystemCursor("On")
 ExitApp
 
-~F16::
+~F13::
     SystemCursor("Toggle")
-    KeyWait F16
+    KeyWait F13
 return
-~F16 up::SystemCursor("Toggle")
-~+F16::SystemCursor("Toggle")
+~F13 up::SystemCursor("Toggle")
+~F17::SystemCursor("Toggle")
 
 SystemCursor(OnOff=1)   ; INIT = "I","Init"; OFF = 0,"Off"; TOGGLE = -1,"T","Toggle"; ON = others
 {
