@@ -14,7 +14,7 @@ key(f14:up):
     tracking.control_toggle()
     mouse_click(0)
     key(alt:up)
-key(f23):
+key(f17):
     tracking.calibrate()
 key(f18):
     mouse_click(0)

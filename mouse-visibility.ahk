@@ -10,7 +10,7 @@ ExitApp
     KeyWait F13
 return
 ~F13 up::SystemCursor("Toggle")
-~F17::SystemCursor("Toggle")
+~F24::SystemCursor("Toggle")
 
 SystemCursor(OnOff=1)   ; INIT = "I","Init"; OFF = 0,"Off"; TOGGLE = -1,"T","Toggle"; ON = others
 {
