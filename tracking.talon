@@ -18,8 +18,20 @@ key(f17):
     tracking.calibrate()
 key(f18):
     mouse_click(0)
+key(ctrl-f18):
+    key(ctrl:down)
+    mouse_click(0)
+    key(ctrl:up)
 key(f19):
     mouse_click(1)
+key(ctrl-f19):
+    key(ctrl:down)
+    mouse_click(1)
+    key(ctrl:up)
+key(shift-f19):
+    key(shift:down)
+    mouse_click(1)
+    key(shift:up)
 key(f20):
     mouse_click(2)
 key(f21:down):
