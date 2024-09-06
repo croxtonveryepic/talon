@@ -50,3 +50,27 @@ key(f15):
     mouse_scroll(-500)
 key(f16):
     mouse_scroll(500)
+key(shift-f15):
+    key(shift:down)
+    mouse_scroll(-500)
+    key(shift:up)
+key(shift-f16):
+    key(shift:down)
+    mouse_scroll(500)
+    key(shift:up)
+key(ctrl-f15):
+    key(ctrl:down)
+    mouse_scroll(-500)
+    key(ctrl:up)
+key(ctrl-f16):
+    key(ctrl:down)
+    mouse_scroll(500)
+    key(ctrl:up)
+key(alt-f15):
+    key(alt:down)
+    mouse_scroll(-500)
+    key(alt:up)
+key(alt-f16):
+    key(alt:down)
+    mouse_scroll(500)
+    key(alt:up)
